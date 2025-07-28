@@ -127,5 +127,52 @@ I will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan will
 
 ### Jamie's Work: Update Event Pages
 
-We would repat thesame flow for Jamie's work on Events pages. we would ensure Jamie's work is in "update-events" branch. 
+We would repeat thesame flow for Jamie's work on Events pages. we would ensure Jamie's work is in "update-events" branch. 
+
+Create Jamie's branch
+
+`git checkout update-events`
+
+  ![jamiesbranch](./img/25.Jamiebranch.png)
+
+Pull request for Jamies
+
+`git pull origin main`
+
+  ![pullrequest](./img/26.Pullmain.png)
+
+Update Event.html file using: `touch event.html` and confirm with `vi event,html`
+
+  ![update](./img/27.jameiUpdate.png)
+
+Check Jamie's Status: `git status`
+
+   ![JamiesStatus](./img/28.JamieStatus.png)
+
+
+   Jamie's Add: `git add .`
+
+   ![add](./img/29.JamieAdd.png)
+
+  Jamie's commit: `git commit`
+
+   ![commit](./img/30.jamiesCommit.png)
+
+  Jamie's Push: `git push origin update-event`
+
+   ![push](./img/31.JamiesPush.png)
+
+   Jamie's push on GitHub:
+
+   ![githubpage](./img/32.JamiePushRequest.png)
+
+
+   Jamie's Merged on GitHub repository
+
+   ![merged](./img/33.JamesMerger.png)
+
+   ![mergerd](./img/34.merged.png)
+
+   
+   End.
 
