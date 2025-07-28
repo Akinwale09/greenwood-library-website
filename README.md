@@ -73,13 +73,58 @@ I will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan will
    ![push](./img/14.push.png)
 
 
-### Morgan's Work: Addidng Book Reviews  
+### Morgan's Work: Adding Book Reviews  
 
 1. I will create a Branch for Morgan
+  
+    `git checkout -b add-book-reviews`
 
-
+   ![morganbranch](./img/15.morganbook.png)
 
 2. Swicth to a new branch name add-book-reviews
 
+   ![morganswitch](./img/15.morganbook.png)
+
+3. Add a new file "book_reviews.html" to represent the book reviews sections:
+ 
+     `touch book_review.html`
+   ![createfile](./img/16.bookreviewfileadded.png)
+
+4. Add a random text content into the file
+
+    ![randomtext](./img/17.randomtextaddedformorgan.png)
+
+5. Stage, commit, and push chnages with a message "Add book reviews sections."
+  
+     `git status`
+
+    ![morganStatus](./img/18.MorganStatus.png)
+
+     `git add .`
+
+    ![](./img/19.MorganAdd.png)
+
+    `git commit -m "message"`
+
+    ![morgancommit](./img/20.MorganCommit.png)
+
+    `git push`
+
+6. Push the "add-book-review" branch to GitHub
+
+    ![Morganpush](./img/21.morganpush.png)
 
 
+7. Raise a PR (Pull Request) for Morgan's work
+
+    ![morganPR](./img/22.morganPR.png)
+
+8. Merge Morgan's work to the main branch.
+
+     ![morgansmerge](./img/23.Morganmerge.png)
+
+     ![merged](./img/24.Merged.png)
+
+### Jamie's Work: Update Event Pages
+
+We would repat thesame flow for Jamie's work on Events pages. we would ensure Jamie's work is in "update-events" branch. 
