@@ -128,3 +128,4 @@ I will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan will
 ### Jamie's Work: Update Event Pages
 
 We would repat thesame flow for Jamie's work on Events pages. we would ensure Jamie's work is in "update-events" branch. 
+
