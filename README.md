@@ -56,3 +56,24 @@ I will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan will
 
 3. I will stage, commit, and push the changes directly to the main branch. 
 
+   `git status`
+
+  ![status](./img/11.status.png)
+  
+   `git add`
+
+   ![gitadd](./img/12.gitadd.png)
+
+   `git commit -m "message"`
+
+   ![commit](./img/13.commit.png)
+
+   `git push`
+
+   ![push](./img/14.push.png)
+
+
+
+
+
+
